@@ -1,6 +1,10 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
+// Tip: Make Test case for n=3 then try to get with n=4 then validate it with n=5 
+// You will get answer with this
+
 int climbingStairs(int n,vector<int> &dp){
 // Write Base cases
 if(n==2){ 
